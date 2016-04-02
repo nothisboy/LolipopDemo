@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AndroidDesignSupportDemo</string>
+
+    <string name="text_coor_content">今天早上跟群里的朋友们讨论了一下MVVM，其中@肥肥鱼慎重的表示没有百分百把握不敢教坏小朋友。这帮人都这么谦虚，那只能我抛砖引玉了。
+在传统的框架中，提的最多的是MVC和MVP。其中MVC出现与上世纪70年代，在三十多年的工程实践中，MVC充分证明了它的成功，同时在漫长的时间中演变出了许多变种，其中也包括MVP.
+MVC和MVP最大的差别在与控制层对于整个框架的控制力上。Android中经常会出现数千行的Activity代码，究其原因，我认为是Android中纯粹作为View的各个XML视图功能太弱，Activity基本上都是View和Controller的合体，既要负责视图的显示又要加入控制逻辑，承担的功能过多，代码量大也就不足为奇。所以我认为在Android上，MVP优于MVC，是因为我们需要更强力的控制层最大程度上分担Activity中逻辑的部分，具体的思想可以参考我的博客：
+Android App整体架构设计的思考(一)
+MVVM可以算是MVP的升级版，其中的VM是ViewModel的缩写，ViewModel可以理解成是View的数据模型和Presenter的合体，ViewModel和View之间的交互通过Data Binding完成，而Data Binding可以实现双向的交互，这就使得视图和控制层之间的耦合程度进一步降低，关注点分离更为彻底，同时减轻了Activity的压力
+
+作者：MagiLu
+链接：http://www.zhihu.com/question/30976423/answer/50224601
+来源：知乎
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</string>
+
+
+    <string name="text_go_list_recycler">list recycler</string>
+</resources>
